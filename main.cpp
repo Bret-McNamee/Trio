@@ -3,7 +3,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-void sortDescending(int,int,int);
+void sortDescending(int&,int&,int&);
 void swap(int&,int&);
 /*
  * prompts the user for three numbers
@@ -28,7 +28,7 @@ int main()
  * the next greatest value into second
  * and the smallest value in third
  */
-void sortDescending(int first, int second, int third)
+void sortDescending(int &first, int &second, int &third)
 {
   if( first < third )
   {
