@@ -10,3 +10,5 @@ To run the program do the following in your command line interface prompt ($):
 $make
 $./a.out
 ```
+
+[![Build Status](https://travis-ci.org/Bret-McNamee/Trio.svg?branch=master)](https://travis-ci.org/Bret-McNamee/Trio)
